@@ -7,7 +7,9 @@ const hexVale = document.querySelector('#hex-value');
 //Creat an hex construct array
 const hexArray = [1, 2, 3, 4, 5, 6, 'A', 'B', 'C', 'D', 'E', 'F'];
 
-//Add an event listener button click
+/**
+ * ** Add an event listener button click
+ */
 button.addEventListener('click', hexChange);
 
 //Hex change function
